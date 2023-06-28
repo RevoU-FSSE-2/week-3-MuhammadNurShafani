@@ -12,3 +12,5 @@ Shafani is a website built with HTML, CSS, and JavaScript. It features a navigat
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+link Deployment https://week3shafani.netlify.app/
