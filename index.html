@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shafani</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascript.js"></script>
+
+  </head>
+  <body>
+    <nav>
+      <div class="layar-dalam">
+        <div class="logo">
+          <a href=""><img src="/Asset/logo.png" class="putih" /></a>
+          <a href=""><img src="asset/logo-black.png" class="hitam" /></a>
+        </div>
+        <div class="menu">
+          <a href="#" class="tombol-menu">
+            <span class="garis"></span>
+            <span class="garis"></span>
+            <span class="garis"></span>
+          </a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#support">Support</a></li>
+
+          </ul>
+        </div>
+        
+      </div>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+    <div class="layar-penuh">
+      <header id="home">
+        <div class="overlay"></div>
+        <video autoplay muted loop>
+          <source src="/Asset/videobatman.mp4" type="video/mp4" />
+        </video>
+        <div class="intro">
+          <h3>THE BATMAN</h3>
+        </div>
+      </header>
+      <main>
+        <section id="aboutus">
+          <div class="layar-dalam">
+            <h3>Play Me</h3>
+            <audio controls autoplay>
+                <source src="/Asset/soundtrackbatman.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </section>
+        <section class="abuabu" id="support">
+          <div class="layar-dalam support">
+            <div>
+              <img src="/Asset/batman1.jpg" />
+            </div>
+            <div>
+              <img src="/Asset/robert.jpg" />
+            </div>
+            <div>
+              <img src="Asset/joker1.jpg" />
+            </div>
+          </div>
+        </section>
+
+        <section id="form-section">
+            <h2>Fight with us!</h2>
+            <form action="#">
+              <fieldset>
+                <legend>Personal Data:</legend>
+                <div>
+                  <label for="fullName">Full Name:</label>
+                  <input id="fullName" type="text" required />
+                </div>
+    
+                <div>
+                  <label for="email">Email:</label>
+                  <input id="email" type="email" required />
+                </div>
+    
+                <div>
+                  <p>Are you living in Indonesia?</p>
+                  <input type="radio" id="yes" name="isIndonesia" value="Male" />
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="isIndonesia" value="Female" />
+                  <label for="no">No</label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Additional information:</legend>
+                <div>
+                  <p>What do you think about a BATMAN?</p>
+                  <input
+                    id="cute"
+                    type="checkbox"
+                    name="personality"
+                    value="cute"
+                  />
+                  <label for="cute">Dark</label>
+                  <input
+                    id="adorable"
+                    type="checkbox"
+                    name="personality"
+                    value="adorable"
+                  />
+                  <label for="adorable">Cool</label>
+                  <input
+                    id="beautiful"
+                    type="checkbox"
+                    name="personality"
+                    value="beautiful"
+                  />
+                  <label for="beautiful">Charismatic</label>
+                </div>
+                <div>
+                  <p>Tell us why you love Batman!</p>
+                  <textarea rows="3"></textarea>
+                </div>
+                <div>
+                  <p>Upload your favorite penguin picture here:</p>
+                  <input
+                    type="file"
+                    id="photo"
+                    name="myPenguinPhoto"
+                    required
+                    accept="image/png, image/jpeg"
+                  />
+                </div>
+              </fieldset>
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+      </main>
+      <footer id="contact">
+        <div class="layar-dalam">
+          <div class="copyright">&copy; 2023 Shafani</div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
